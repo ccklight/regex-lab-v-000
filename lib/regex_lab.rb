@@ -16,7 +16,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
- #!! phone.match(/\+?([\d|\(][\h|\(\d{3}\)|\.|\-|\d]{4,}\d)/
+ !! phone.match(/\+?([\d|\(][\h|\(\d{3}\)|\.|\-|\d]{4,}\d)/
  phone.match(/\b!!([0,9]{10}||[a-zA-Z])\b/)
 end
    #returns true for valid phone numbers, regardless of formatting" do
